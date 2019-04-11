@@ -68,6 +68,26 @@ body {
 	outline: 0;
 }
 
+.clear__button {
+	background: none;
+	border: 0;
+	cursor: pointer;
+	color: white;
+	font-size: 2rem;
+	text-transform: uppercase;
+	background: rgba(255, 0, 0, 0.5);
+	border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 1rem;
+	font-family: 'Inconsolata', monospace;
+}
+
+.clear__button:hover,
+.clear__button:focus {
+	background: rgba(255, 0, 0, 0.7);
+	outline: 0;
+}
+
 .display {
 	flex: 1;
 	display: flex;
